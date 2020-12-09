@@ -13,8 +13,8 @@ for (let counter = 0; counter < leng; counter++) {
     summery = summery + writtennumber;
 }
 
-for (let z = 0; z < numbers.length; z++) {
-    let sayi = numbers[z];
+for (let i = 0; i < numbers.length; i++) {
+    let sayi = numbers[i];
     summery2 += sayi;
 }
 console.log("Summery", summery2);
@@ -25,22 +25,22 @@ for (let i = 0; i < numbers.length; i++) {
     console.log("Square of numbers", [i + 1], numbers[i] * numbers[i])
 }
 
-for (let a = 0; a < numbers.length; a++) {
+for (let i = 0; i < numbers.length; i++) {
 
-    console.log("square_root of numbers", [a + 1], Math.sqrt(numbers[a]))
+    console.log("square_root of numbers", [i + 1], Math.sqrt(numbers[i]))
 }
 
 
-for (let p = 0; p < numbers.length; p++) {
-    if (Max < numbers[p]) {
-        Max = numbers[p];
+for (let i = 0; i < numbers.length; i++) {
+    if (Max < numbers[i]) {
+        Max = numbers[i];
     }
 
 }
 
-for (let k = 0; k < numbers.length; k++) {
-    if (Min > numbers[k]) {
-        Min = numbers[k];
+for (let i = 0; i < numbers.length; i++) {
+    if (Min > numbers[i]) {
+        Min = numbers[i];
     }
 }
 
